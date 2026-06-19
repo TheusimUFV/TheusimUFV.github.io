@@ -1,7 +1,6 @@
-#after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
-gemspec
 
-# Delete the following lines if not on Windows: 
-# Performance-booster for watching directories on Windows
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
+gem "jekyll", "~> 3.9.0"
+gem "github-pages", "~> 214"
+gem "rake", "~> 13.0.3"
+gem "slugify", "~> 1.0.7"
